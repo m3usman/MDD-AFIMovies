@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.muneeb.afi_app.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary"
+        android:scaleType="fitXY"
+        android:src="@drawable/back" />
+
+    <TextView
+        android:id="@+id/textViewIntro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:maxWidth="300dp"
+        android:shadowColor="#000"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="50"
+        android:text="AFI MOVIES PICKS FIVE MOVIES FOR YOU OUT OF THE TOP 100 AFI CLASSICS OF ALL TIME TAP THE BUTTON BELOW"
+        android:textAlignment="center"
+        android:textColor="@color/colorBg" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewIntro"
+        android:layout_alignStart="@+id/textViewIntro"
+        android:layout_below="@+id/textViewIntro"
+        android:fontFamily="Roboto"
+        android:shadowColor="#000"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="50"
+        android:text="YOUR MOVIE PICK"
+        android:textColor="@color/colorBg"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        tools:text="YOUR MOVIE PICK" />
+
+
+    <TextView
+        android:id="@+id/filmOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="false"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorTextBg1"
+        android:clickable="true"
+        android:onClick="onClickmyTextView1"
+        android:padding="10dp"
+        android:text="@string/filmTitleOne"
+        android:textAlignment="textStart"
+        android:textAllCaps="true"
+        android:textColor="@color/colorText"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/filmTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/filmOne"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorTextBg2"
+        android:clickable="true"
+        android:onClick="onClickmyTextView2"
+        android:padding="10dp"
+        android:text="@string/filmTitleTwo"
+        android:textAlignment="textEnd"
+        android:textAllCaps="true"
+        android:textColor="@color/colorText"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/filmThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:background="@color/colorTextBg3"
+        android:clickable="true"
+        android:onClick="onClickmyTextView3"
+        android:padding="10dp"
+        android:text="@string/filmTitleThree"
+        android:textAlignment="textStart"
+        android:textAllCaps="true"
+        android:textColor="@color/colorText"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/filmFour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/filmTwo"
+        android:layout_alignStart="@+id/filmTwo"
+        android:layout_below="@+id/filmThree"
+        android:layout_marginTop="12dp"
+        android:background="@color/colorTextBg4"
+        android:clickable="true"
+        android:onClick="onClickmyTextView4"
+        android:padding="10dp"
+        android:text="@string/filmTitleFour"
+        android:textAlignment="textEnd"
+        android:textAllCaps="true"
+        android:textColor="@color/colorText"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/filmFive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/filmFour"
+        android:layout_marginTop="12dp"
+        android:background="@color/colorTextBg5"
+        android:clickable="true"
+        android:onClick="onClickmyTextView5"
+        android:padding="10dp"
+        android:text="@string/filmTitleFive"
+        android:textAlignment="textStart"
+        android:textAllCaps="true"
+        android:textColor="@color/colorText"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp"
+        android:background="@color/colorPrimaryDark"
+        android:elevation="0dp"
+        android:fadingEdge="horizontal|vertical"
+        android:padding="20dp"
+        android:scaleX="1"
+        android:text="RANDOMIZE"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/colorTextButton"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+

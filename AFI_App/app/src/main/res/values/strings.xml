@@ -1,0 +1,13 @@
+<resources>
+    <string name="AFI_App">AFI Movies</string>
+    <string name="AFI_title">AFI 100 Movie List</string>
+    <string name="filmTitleOne"></string>
+    <string name="filmTitleTwo"></string>
+    <string name="filmTitleThree"></string>
+    <string name="filmTitleFour"></string>
+    <string name="filmTitleFive"></string>
+    <string name="selectRandomFilm">Random films</string>
+    <string name="Intro">AFI MOVIES PICKS FIVE MOVIES FOR YOU OUT OF THE TOP 100 AFI CLASSICS OF ALL TIME</string>
+    <string name="title_activity_splash">Splash</string>
+</resources>
+

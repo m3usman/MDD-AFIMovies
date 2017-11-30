@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Application accents & colours-->
+    <color name="colorPrimary">#053C5E</color>
+    <color name="colorPrimaryDark">#1f7a8c</color>
+    <color name="colorAccent">#DB222A</color>
+    <color name="colorBg">#ffffff</color>
+
+    <!--Main window colour palette-->
+    <color name="colorText">#000000</color>
+    <color name="colorTextBg1">#ffffff</color>
+    <color name="colorTextBg2">#ffffff</color>
+    <color name="colorTextBg3">#ffffff</color>
+    <color name="colorTextBg4">#ffffff</color>
+    <color name="colorTextBg5">#ffffff</color>
+    <color name="colorTextButton">#FFFFFF</color>
+    <color name="colorButtonBg">#000000</color>
+</resources>
